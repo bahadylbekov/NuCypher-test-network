@@ -106,23 +106,23 @@ If you find a vulnerability that you suspect has given you access to a machine a
 
 # How to run a test NuCypher network
 
-Ursula:
-
+To Run Ursula:
+```
 - nucypher ursula run --dev --federated-only
-
-Alice: 
-
+```
+To Run Alice: 
+```
 - nucypher alice run --dev --federed-only --teacher-uri localhost:10151
+```
 
-
-Enrico:
-
+To Run Enrico:
+```
 - nucypher enrico run --policy-encrypting-key
+```
 
-
-Bob:
-
+To Run Bob:
+```
 - nucypher bob run --dev federated-only --teacher-uri localhost:10151
-
+```
 
 
