@@ -104,4 +104,25 @@ We ask that you please respect testnet machines and their owners.
 If you find a vulnerability that you suspect has given you access to a machine against the owner's permission, stop what you're doing and immediately email security@nucypher.com.
 
 
-# NuCypher
+# How to run a test NuCypher network
+
+Ursula:
+
+- nucypher ursula run --dev --federated-only
+
+Alice: 
+
+- nucypher alice run --dev --federed-only --teacher-uri localhost:10151
+
+
+Enrico:
+
+- nucypher enrico run --policy-encrypting-key
+
+
+Bob:
+
+- nucypher bob run --dev federated-only --teacher-uri localhost:10151
+
+
+
